@@ -29,7 +29,7 @@ Ading the [getBible Loader Script](https://git.vdm.dev/getBible/loader) the the 
 + *Author*: [Llewellyn van der Merwe](mailto:joomla@vdm.io)
 + *Name*: [getBible Loader](https://getbible.net)
 + *First Build*: 3rd December, 2015
-+ *Last Build*: 29th July, 2024
++ *Last Build*: 3rd October, 2025
 + *Version*: 3.1.0
 + *Copyright*: Copyright (C) 2015. All Rights Reserved
 + *License*: GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html

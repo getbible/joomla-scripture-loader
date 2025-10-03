@@ -14,12 +14,13 @@
     @license    GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
 
 /------------------------------------------------------------------------------------------------------*/
-
-// No direct access to this file
-defined('_JEXEC') or die('Restricted access');
+namespace TrueChristianBible\Plugin\System\GetBibleLoader\Extension;
 
 use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Html\HTMLHelper;
+
+// No direct access to this file
+defined('_JEXEC') or die('Restricted access');
 
 /**
  * System - GetBibleLoader plugin.
@@ -27,7 +28,7 @@ use Joomla\CMS\Html\HTMLHelper;
  * @package   GetBibleLoader
  * @since     3.1.0
  */
-class PlgSystemGetBibleLoader extends CMSPlugin
+final class GetBibleLoader extends CMSPlugin
 {
 	/**
 	 * Application object

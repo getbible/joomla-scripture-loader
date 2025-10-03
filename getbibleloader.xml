@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" version="5.0" group="system" method="upgrade">
 	<name>PLG_SYSTEM_GETBIBLELOADER</name>
-	<creationDate>29th July, 2024</creationDate>
+	<creationDate>3rd October, 2025</creationDate>
 	<author>Llewellyn van der Merwe</author>
 	<authorEmail>joomla@vdm.io</authorEmail>
 	<authorUrl>https://getbible.net</authorUrl>
 	<copyright>Copyright (C) 2015. All Rights Reserved</copyright>
 	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
 	<version>3.1.0</version>
+	<namespace path="src">TrueChristianBible\Plugin\System\GetBibleLoader</namespace>
 	<description>PLG_SYSTEM_GETBIBLELOADER_XML_DESCRIPTION</description>
 
 	<!-- Scripts to run on installation -->
@@ -15,15 +16,16 @@
 
 	<!-- Language files -->
 	<languages folder="language">
-		<language tag="en-GB">en-GB/en-GB.plg_system_getbibleloader.ini</language>
-		<language tag="en-GB">en-GB/en-GB.plg_system_getbibleloader.sys.ini</language>
+		<language tag="en-GB">en-GB/plg_system_getbibleloader.ini</language>
+		<language tag="en-GB">en-GB/plg_system_getbibleloader.sys.ini</language>
 	</languages>
 
 	<!-- Plugin files -->
 	<files>
-		<filename plugin="getbibleloader">getbibleloader.php</filename>
+		<folder plugin="getbibleloader">services</folder>
 		<filename>README.md</filename>
 		<filename>index.html</filename>
-		<folder>language</folder>
+		<folder>services</folder>
+		<folder>src</folder>
 	</files>
 </extension>

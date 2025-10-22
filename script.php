@@ -94,12 +94,7 @@ class plgSystemGetBibleLoaderInstallerScript
 
 		if ('install' === $route)
 		{
-			$jversion = new JVersion();
-			if (!$jversion->isCompatible('3.10.0')) {
-				$app->enqueueMessage('Please upgrade to at least Joomla! 3.10 before continuing!', 'error');
-				return false;
-			}
-
+// todo
 		}
 
 		// remove old files and folders

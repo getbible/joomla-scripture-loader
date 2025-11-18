@@ -1,6 +1,6 @@
 # getBible Loader (3.1.0)
 
-### The Joomla plugin from [getBible.net](https://getbible.net/joomla) to load of the Scriptures in your website content.
+### The Joomla plugin from [getBible.life](https://getbible.life/joomla) to load of the Scriptures in your website content.
 
 Ading the [getBible Loader Script](https://git.vdm.dev/getBible/loader) the the header of your website, we are adding the ability to your Joomla website to add Scriptures to your content very easily.
 
@@ -19,17 +19,17 @@ Ading the [getBible Loader Script](https://git.vdm.dev/getBible/loader) the the 
    ```
 - Follow these [reference naming](https://git.vdm.dev/getBible/loader#scripture-reference-formatting) conventions.
 - There is also [customization option](https://git.vdm.dev/getBible/loader#utilizing-data-attributes) available.
-- For more details got to the [Biblekit documentation](https://getbible.net/loader) page.
+- For more details got to the [Biblekit documentation](https://getbible.life/loader) page.
 
 > Support can be found at our [community support area](https://git.vdm.dev/getBible/support).
 
 # Build Details
 
-+ *Company*: [Vast Development Method](https://getbible.net)
++ *Company*: [Vast Development Method](https://getbible.life)
 + *Author*: [Llewellyn van der Merwe](mailto:joomla@vdm.io)
-+ *Name*: [getBible Loader](https://getbible.net)
-+ *First Build*: 3rd December, 2015
-+ *Last Build*: 22nd October, 2025
++ *Name*: [getBible Loader](https://getbible.life)
++ *First Build*: 2015-12-03 01:42:15
++ *Last Build*: 18th November, 2025
 + *Version*: 3.1.0
 + *Copyright*: Copyright (C) 2015. All Rights Reserved
 + *License*: GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
